@@ -1,6 +1,6 @@
 /*
  * Envio de valores obtenidos del sensor DHT11 en formato JSON por MQTT
- * por: Alejandro Domínguez
+ * por: Luis Manuel Sanchez
  * Fecha: 16 de agosto de 2022
  * 
  * Este programa envía datos de temperatura y humedad obtenidos mediante el sensor DHT11 
@@ -33,8 +33,8 @@
 #define DHTTYPE DHT11 // Se define que tipo de DHT es
 
 //Datos del WiFi
-const char* ssid = "CASADOMXC"; //Se debe poner el nombre de la red
-const char* password = "kn72FCkggp"; // Se debe poner la contraseña de la red
+const char* ssid = "Arknet16_2.4Gnormal"; //Se debe poner el nombre de la red
+const char* password = "96luam21"; // Se debe poner la contraseña de la red
 
 //Datos del broker MQTT
 const char* mqtt_server = "192.168.1.109"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
@@ -123,7 +123,7 @@ void loop() {
   }
 
    //Se construye el string correspondiente al JSON que contiene 3 variables
-   String json = "{\"id\":\"Alex\",\"temp\":"+String(temp)+",\"hum\":"+String(hum)+"}";
+   String json = "{\"id\":\"Manuel\",\"temp\":"+String(temp)+",\"hum\":"+String(hum)+"}";
    Serial.println(json); // Se imprime en monitor solo para poder visualizar que el string esta correctamente creado
    int str_len = json.length() + 1;//Se calcula la longitud del string
    char char_array[str_len];//Se crea un arreglo de caracteres de dicha longitud
