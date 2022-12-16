@@ -19,8 +19,6 @@ En este repositorio se encuentra una estación climática, trasmitiendo datos de
 
 ### Dashboard Final
 
-![](https://github.com/Alejandro-Dom/Flow7_EstacionClimatica/blob/main/Imagenes/Dashboard1)
+![](https://github.com/ManuSV16/Estacion-Climatica/blob/main/Imagenes/Screenshot%20from%202022-08-23%2013-51-33.png)
 
-![](https://github.com/Alejandro-Dom/Flow7_EstacionClimatica/blob/main/Imagenes/Dashboard2)
-
-![](https://github.com/Alejandro-Dom/Flow7_EstacionClimatica/blob/main/Imagenes/Dashboard3)
+![](https://github.com/ManuSV16/Estacion-Climatica/blob/main/Imagenes/Screenshot%20from%202022-08-23%2013-51-41.png)
